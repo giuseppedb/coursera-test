@@ -7,6 +7,16 @@ body {
     margin: 0;
 }
 
+h1{
+    text-align: center;
+    font-size: 175%;
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+
 h2 {
     font-size: 125%;
     text-align: center;
@@ -36,6 +46,9 @@ h2 {
     line-height: .75;
 }
 
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
 .navbar-brand p span { /* Star-K */
   vertical-align: middle;
 }
