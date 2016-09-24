@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 175%;
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+
+h2 {
+    font-size: 125%;
+    text-align: center;
+    margin-top: -12px;
+}
+
+.section {
+    background-color: #D3D3D3;
+    border: 1px solid black;
+    position: relative;
+    min-height: 150px;
+    margin-right: auto
+    margin-left: auto;
+    margin-bottom: 30px;
+    padding: 15px;
+    padding-top: 40px;
+    /*min-width: 300px;*/
+    overflow: hidden;
+}        
+
+
+.navbar-brand h1 { /* Restaurant name */
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#header-nav {
+  background-color: #D3D3D3;
+  border-radius: 0;
+  border: 0;
+}
+#nav-list {
+  margin-top: 10px;
+  border-width: 1px;
+}
+
+#nav-list a {
+  color: black;
+  text-align: center;
+  background-color: #FFFFFF;
+
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid ;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/************* Responsive framework *************/
+.row {
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    
+}
+
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 70px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
