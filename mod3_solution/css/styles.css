@@ -7,16 +7,6 @@ body {
     margin: 0;
 }
 
-h1{
-    text-align: center;
-    font-size: 175%;
-    margin: 0;
-    margin-top: 40px;
-    margin-bottom: 30px;
-    color: black;
-}
-
-
 h2 {
     font-size: 125%;
     text-align: center;
@@ -77,6 +67,17 @@ h2 {
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
+}
+
+.container .jumbotron {
+  text-align: center;
+  font-size: 175%;
+  margin: 0;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: black;
+  padding: 0;
+  background-color: #FFFFFF;
 }
 /************* Responsive framework *************/
 .row {
